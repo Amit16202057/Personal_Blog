@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amit Ghosh | Premium Digital Services</title>
+<meta name="description" content="Hire Amit Ghosh for website development, data entry, email marketing, and automation. Fast delivery, affordable pricing, and reliable support.">
+<meta name="keywords" content="freelancer Bangladesh, data entry, website developer, email marketing, excel automation">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;scroll-behavior:smooth;}
+body{background:transparent;color:#fff;overflow-x:hidden;}
+canvas{position:fixed;top:0;left:0;z-index:0;}
+header, nav, .container, footer {position:relative; z-index:1;}
+
+header{display:flex;align-items:center;justify-content:center;gap:40px;padding:80px 20px;flex-wrap:wrap;}
+.profile-img{width:180px;height:180px;border-radius:50%;object-fit:cover;border:3px solid #00c6ff;box-shadow:0 0 25px rgba(0,198,255,0.6);} 
+.header-text h1{font-size:48px;}
+.header-text p{opacity:0.85;margin-top:10px;font-size:18px;}
+
+nav{display:flex;justify-content:center;gap:20px;padding:15px;background:rgba(255,255,255,0.05);backdrop-filter:blur(10px);position:sticky;top:0;}
+nav a{color:#fff;text-decoration:none;padding:8px 15px;border-radius:20px;}
+nav a:hover{background:#00c6ff;}
+
+.container{padding:40px 20px;max-width:1200px;margin:auto;}
+.card{background:rgba(255,255,255,0.05);backdrop-filter:blur(12px);border-radius:15px;padding:30px;margin-bottom:30px;box-shadow:0 8px 25px rgba(0,0,0,0.3);} 
+
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
+.service-box{background:linear-gradient(135deg,#0d6efd,#00c6ff);padding:20px;border-radius:12px;text-align:center;}
+
+.pricing{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
+.price-card{background:#111;border-radius:15px;padding:25px;text-align:center;}
+.price{font-size:30px;color:#00c6ff;}
+
+.blog{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
+.blog-card{background:#111;padding:20px;border-radius:12px;}
+
+.testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
+.testimonial{background:#111;padding:20px;border-radius:12px;}
+
+form input,form textarea{width:100%;padding:10px;margin:10px 0;border:none;border-radius:8px;}
+.btn{display:inline-block;padding:10px 20px;background:#00c6ff;border-radius:25px;color:#fff;text-decoration:none;border:none;cursor:pointer;}
+
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:15px;border-radius:50%;font-size:20px;text-decoration:none;}
+
+footer{text-align:center;padding:20px;background:rgba(0,0,0,0.4);} 
+</style>
+
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);} 
+gtag('js', new Date());
+gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<!-- Schema Markup (SEO Boost) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Amit Ghosh",
+  "url": "https://your-vercel-domain.vercel.app",
+  "jobTitle": "Freelancer",
+  "sameAs": [
+    "https://www.facebook.com/",
+    "https://www.linkedin.com/"
+  ]
+}
+</script>
+
+</head>
+<body>
+
+<canvas id="bg"></canvas>
+
+<header>
+<img src="your-image.jpg" class="profile-img">
+<div class="header-text">
+<h1>Amit Ghosh</h1>
+<p>🚀 Premium Freelancer | Website Developer | Data Automation Expert</p>
+<p>I help businesses grow with powerful websites, automation, and marketing solutions.</p>
+<a href="#contact" class="btn">Hire Me Now</a>
+</div>
+</header>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#pricing">Pricing</a>
+<a href="#blog">Blog</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+<section class="card">
+<h2>🔥 My Services</h2>
+<div class="services">
+<div class="service-box">🌐 Website Development (Business & Blog)</div>
+<div class="service-box">📧 Email Marketing Setup</div>
+<div class="service-box">📊 Excel Automation & Reports</div>
+<div class="service-box">⚙️ Server Migration & Hosting</div>
+<div class="service-box">📋 Data Entry & VA Support</div>
+<div class="service-box">📄 PDF to Excel Conversion</div>
+</div>
+</section>
+
+<section class="card">
+<h2>💰 Pricing Plans</h2>
+<div class="pricing">
+<div class="price-card"><h3>Basic</h3><div class="price">$20</div><p>Data Entry / PDF Work</p></div>
+<div class="price-card"><h3>Standard</h3><div class="price">$50</div><p>Website / Excel Automation</p></div>
+<div class="price-card"><h3>Premium</h3><div class="price">$100+</div><p>Full Website + Marketing</p></div>
+</div>
+</section>
+
+<section class="card">
+<h2>📈 Blog & Online Income Tips</h2>
+<div class="blog" id="blogContainer"></div>
+</section>
+
+<section class="card">
+<h2>⭐ Client Testimonials</h2>
+<div class="testimonials">
+<div class="testimonial">"Great service, very fast delivery!"</div>
+<div class="testimonial">"Highly professional and reliable freelancer."</div>
+<div class="testimonial">"Best for data entry and website work."</div>
+</div>
+</section>
+
+<section id="contact" class="card">
+<h2>📩 Contact Me</h2>
+<form onsubmit="saveLead(event)">
+<input type="text" id="name" placeholder="Your Name" required>
+<input type="email" id="email" placeholder="Your Email" required>
+<textarea id="msg" placeholder="Project Details"></textarea>
+<button class="btn">Send Request</button>
+</form>
+</section>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/8801XXXXXXXXX?text=Hi%20I%20want%20your%20service" target="_blank">💬</a>
+
+<footer>
+<p>© 2026 Amit Ghosh | Premium Freelance Services</p>
+</footer>
+
+<script>
+const c=document.getElementById('bg');
+const ctx=c.getContext('2d');
+const dpr=window.devicePixelRatio||1;
+c.width=window.innerWidth*dpr;
+c.height=window.innerHeight*dpr;
+c.style.width=window.innerWidth+'px';
+c.style.height=window.innerHeight+'px';
+ctx.scale(dpr,dpr);
+
+let nodes=[];
+for(let i=0;i<60;i++){nodes.push({x:Math.random()*window.innerWidth,y:Math.random()*window.innerHeight,vx:(Math.random()-0.5),vy:(Math.random()-0.5)});} 
+
+function draw(){
+ctx.fillStyle='#05070d';ctx.fillRect(0,0,c.width,c.height);
+for(let i=0;i<nodes.length;i++){
+for(let j=i+1;j<nodes.length;j++){
+let dx=nodes[i].x-nodes[j].x;let dy=nodes[i].y-nodes[j].y;let dist=Math.sqrt(dx*dx+dy*dy);
+if(dist<120){ctx.strokeStyle='rgba(0,198,255,'+(1-dist/120)+')';ctx.beginPath();ctx.moveTo(nodes[i].x,nodes[i].y);ctx.lineTo(nodes[j].x,nodes[j].y);ctx.stroke();}}
+ctx.beginPath();ctx.arc(nodes[i].x,nodes[i].y,2,0,Math.PI*2);ctx.fillStyle='#00c6ff';ctx.fill();
+nodes[i].x+=nodes[i].vx;nodes[i].y+=nodes[i].vy;
+if(nodes[i].x<0||nodes[i].x>window.innerWidth)nodes[i].vx*=-1;
+if(nodes[i].y<0||nodes[i].y>window.innerHeight)nodes[i].vy*=-1;}
+requestAnimationFrame(draw);} draw();
+
+const blog=document.getElementById('blogContainer');
+const topics=["Earn Money Online","Freelancing Guide","Best Data Entry Jobs","Website Tips"];
+topics.forEach(t=>{blog.innerHTML+=`<div class='blog-card'><h3>${t}</h3><p>SEO optimized content to rank on Google.</p></div>`});
+
+function saveLead(e){e.preventDefault();alert('Message sent!');}
+</script>
+
+</body>
+</html>
